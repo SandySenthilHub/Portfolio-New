@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="text-white bg-gray-900">
       <Header />
-      <main>
+      <main className="mt-[80px] sm:mt-0">
         <Hero />
         <About />
         <Projects />

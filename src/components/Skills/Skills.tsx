@@ -55,7 +55,7 @@ const Skills: React.FC = () => {
       </div>
       
       <div className="mt-16 text-center text-gray-300">
-        <p className="max-w-2xl mx-auto">
+        <p className="max-w-2xl mx-auto text-justify">
           In addition to these technical skills, I also bring strong problem-solving abilities, 
           excellent communication, and a passion for creating exceptional user experiences.
         </p>

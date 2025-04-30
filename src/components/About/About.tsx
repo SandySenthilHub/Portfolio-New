@@ -30,7 +30,7 @@ const About: React.FC = () => {
             Professional <span className="text-purple-500">Profile</span>
           </h3>
 
-          <p className="text-gray-300 leading-relaxed">
+          <p className="text-gray-300 leading-relaxed text-justify">
             {personalInfo.longBio.split('\n\n').map((paragraph, index) => (
               <span key={index} className="block mb-4">{paragraph}</span>
             ))}
@@ -72,7 +72,7 @@ const About: React.FC = () => {
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform duration-300 hover:-translate-y-2">
           <Code size={32} className="text-purple-500 mb-4" />
           <h3 className="text-xl font-bold text-white mb-3">Development</h3>
-          <p className="text-gray-400">
+          <p className="text-gray-400 text-justify">
             Building modern, responsive web applications with a focus on performance and user experience.
           </p>
         </div>
@@ -80,7 +80,7 @@ const About: React.FC = () => {
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform duration-300 hover:-translate-y-2">
           <Briefcase size={32} className="text-purple-500 mb-4" />
           <h3 className="text-xl font-bold text-white mb-3">Experience</h3>
-          <p className="text-gray-400">
+          <p className="text-gray-400 text-justify">
             Over 2+ years of professional experience working with startups and established companies.
           </p>
         </div>
@@ -88,18 +88,18 @@ const About: React.FC = () => {
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform duration-300 hover:-translate-y-2">
           <GraduationCap size={32} className="text-purple-500 mb-4" />
           <h3 className="text-xl font-bold text-white mb-3">Education</h3>
-          <p className="text-gray-400">
-          Bachelor’s degree in Computer Science from Government Arts College, Coimbatore, with distinction (8.2%) and university rank (Rank: 09)
+          <p className="text-gray-400 text-justify">
+            Bachelor’s degree in Computer Science from Government Arts College, Coimbatore, with distinction (8.2%) and university rank (Rank: 09)
           </p>
         </div>
-
+ 
         <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform duration-300 hover:-translate-y-2">
-  <Award size={32} className="text-purple-500 mb-4" />
-  <h3 className="text-xl font-bold text-white mb-3">Certification</h3>
-  <p className="text-gray-400">
-    Certificate of Completion in Full Stack Web Development, demonstrating hands-on expertise in building end-to-end web applications using the MERN stack.
-  </p>
-</div>
+          <Award size={32} className="text-purple-500 mb-4" />
+          <h3 className="text-xl font-bold text-white mb-3">Certification</h3>
+          <p className="text-gray-400 text-justify">
+            Certificate of Completion in Full Stack Web Development, demonstrating hands-on expertise in building end-to-end web applications using the MERN stack.
+          </p>
+        </div>
 
       </div>
     </Section>
