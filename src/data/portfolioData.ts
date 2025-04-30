@@ -182,7 +182,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     name: "LinkedIn",
-    url: "www.linkedin.com/in/sandhya-s-bb457120a",
+    url: "https://www.linkedin.com/in/sandhya-s-bb457120a",
     icon: "Linkedin"
   },
   // {
