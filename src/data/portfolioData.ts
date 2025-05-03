@@ -53,7 +53,7 @@ export const projects: Project[] = [
     title: "Fiction Master",
     description: "A revamp of inhouse website",
     image: FM,
-    technologies: ["React", "Node.js", "MongoDB", "Phonepe"],
+    technologies: ["React"],
     category: "frontend",
     url: "https://fictionmaster.in/",
   },
