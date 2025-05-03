@@ -5,6 +5,7 @@ import Volans from './volans.jpg'
 import Buytown from './Buytown.webp'
 import Bootcamp from './Bootcamp.jpg'
 import Scrible from './ScribleForge.avif'
+import FM from './FM.png'
 
 // Replace with your personal information
 export const personalInfo = {
@@ -20,23 +21,22 @@ export const personalInfo = {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Car Automotive",
-    description: "A dynamic automotive event platform for showcasing car shows, organizing race events, and managing participant registrations and schedules.",
-    image: Batcave,
-    technologies: ["React", "Node.js", "MongoDB", "Phonepe"],
+    title: "Scrible Forge",
+    description: "Daily Journals To Inspire Happiness Build Positive Habits & Nurture Curious Minds",
+    image: Scrible,
+    technologies: ["Reactjs", "Nodejs", "MongoDB", "RazorPay"],
     category: "fullstack",
-    url: "http://batcave.club/",
-    github: "https://github.com/SandySenthilHub/Batcave-rewamp"
+    url: "https://scribleforge.com/",
   },
   {
     id: 2,
-    title: "Invicious",
-    description: "A modern software development company website showcasing services, project portfolios, tech expertise, and contact options to attract and engage potential clients.",
-    image: Invicious,
-    technologies: ["React", "Nodejs", "MongoDB"],
+    title: "Buytown Hardware Market",
+    description: "An eCommerce platform for BuyTown Hardware Market, offering a wide range of hardware tools and supplies with seamless browsing, cart management, and secure online purchasing.",
+    image: Buytown,
+    technologies: ["ReactNatie", "Nodejs", "MongoDB", "RazorPay"],
     category: "fullstack",
-    url: "https://invicious-main.netlify.app/#home",
-    github: "https://github.com/SandySenthilHub/InviWebsite"
+    url: "https://play.google.com/store/apps/details?id=com.BuyTown&hl=en-US",
+    github: "https://github.com/SandySenthilHub/Backend_BuyTown"
   },
   {
     id: 3,
@@ -50,16 +50,35 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: "Buytown Hardware Market",
-    description: "An eCommerce platform for BuyTown Hardware Market, offering a wide range of hardware tools and supplies with seamless browsing, cart management, and secure online purchasing.",
-    image: Buytown,
-    technologies: ["ReactNatie", "Nodejs", "MongoDB", "RazorPay"],
-    category: "fullstack",
-    url: "https://play.google.com/store/apps/details?id=com.BuyTown&hl=en-US",
-    github: "https://github.com/SandySenthilHub/Backend_BuyTown"
+    title: "Fiction Master",
+    description: "A revamp of inhouse website",
+    image: FM,
+    technologies: ["React", "Node.js", "MongoDB", "Phonepe"],
+    category: "frontend",
+    url: "https://fictionmaster.in/",
   },
   {
     id: 5,
+    title: "Invicious",
+    description: "A modern software development company website showcasing services, project portfolios, tech expertise, and contact options to attract and engage potential clients.",
+    image: Invicious,
+    technologies: ["React", "Nodejs", "MongoDB"],
+    category: "fullstack",
+    url: "https://invicious-main.netlify.app/#home",
+    github: "https://github.com/SandySenthilHub/InviWebsite"
+  },
+  {
+    id: 6,
+    title: "Car Automotive",
+    description: "A dynamic automotive event platform for showcasing car shows, organizing race events, and managing participant registrations and schedules.",
+    image: Batcave,
+    technologies: ["React", "Node.js", "MongoDB", "Phonepe"],
+    category: "fullstack",
+    url: "http://batcave.club/",
+    github: "https://github.com/SandySenthilHub/Batcave-rewamp"
+  },
+  {
+    id: 7,
     title: "Bootcamp180",
     description: "A career-focused platform where students upskill through intensive training programs, build real-world projects, and successfully launch their careers in tech and other industries.",
     image: Bootcamp,
@@ -67,18 +86,9 @@ export const projects: Project[] = [
     category: "frontend",
     url: "http://www.bootcamp180.com/",
     github: "https://github.com/SandySenthilHub/Bootcamp180-Client"
-  },
-  {
-    id: 6,
-    title: "Scrible Forge",
-    description: "Daily Journals To Inspire Happiness Build Positive Habits & Nurture Curious Minds",
-    image: Scrible,
-    technologies: ["Reactjs", "Nodejs", "MongoDB", "RazorPay"],
-    category: "fullstack",
-    url: "https://scribleforge.com/",
-  
   }
 ];
+
 
 export const skills: Skill[] = [
   { name: "React", level: 90, category: 'frontend' },
